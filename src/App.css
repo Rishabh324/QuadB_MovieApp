@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kalam&display=swap');
+
+/* SearchBar*/
+
+.searchbar{
+    margin: 2rem 0;
+}
+
+.search-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search{
+    background-color: orange;
+    color: white;
+    margin-left: 0.5rem;
+}
+
+.search:hover{
+    background-color: blueviolet;
+    color: white;
+}
+
+.book{
+    color: white;
+}
+
+/* cards */
+
+.list-item{
+    margin: 2.5rem;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.list-item:hover{
+    transform: scale(1.1);
+    transition: 500ms;
+}
+
+.card-info{
+    text-align: center;
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+}
+
+.it-rating{
+    color: red;
+}
+
+/*home*/
+.homelist{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.img{
+    margin-left: 33%;   
+}
+/*single*/
+
+.single-show{
+    display: flex;
+    justify-content: center;
+    margin: 0 20rem 0 20rem;
+    align-items: center;
+}
+
+.single-show-info{
+    margin-left: 20px;
+}
+
+.genre{
+    display: inline-block;
+    border-radius: 15px;
+    margin: 0.5rem 1rem 0.5rem 0;
+    padding: 10px 17px;
+    background-color: blueviolet;
+    color: white;
+}
+
+.about{
+    font-size: 1.3rem;
+    font-family: 'Kalam', cursive;
+    font-weight: bold;
+    width: 50%;
+    margin: 15% 25% 15% 25%;
+}
+
+.booking{
+    width: max-content;
+    margin: 2% 40%;
+    text-align: center;
+}
+
+.booking label{
+    font-weight: bold;
+}
+
+.status{
+    font-family: 'Kalam', cursive;
+    font-size: 3rem;
+}
+
+.status-div{
+    margin-top: 7%;
+    text-align: center;
+}

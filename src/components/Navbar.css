@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kalam&display=swap');
+
+.nav-cont{
+    font-family: 'Kalam', cursive;
+    padding-top: 1.5rem;
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand{
+    margin-left: 25px;
+}
+
+.brand p{
+    font-size: 1.8rem;
+    color: white;
+}
+
+.brand p:hover{
+    color: rgb(129, 55, 199);
+}
+
+.link-cont{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.link1, .link2{
+    margin-right: 25px;
+
+}
+
+.link-cont p{
+    color: white;
+    font-size: 1.4rem;
+}
+
+.link-cont div:hover{
+    color: rgb(129, 55, 199);
+    border-bottom: 3px solid rgb(129, 55, 199);
+}
